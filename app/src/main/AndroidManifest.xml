@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".Coding_ppl_info" />
         <activity android:name=".Dance_ppl_info" />
         <activity android:name=".Literary_ppl_info" />
@@ -142,6 +142,10 @@
             </intent-filter>
         </service>
 
+        <activity android:name=".EventRequestForm"
+            android:label="Event Request Form">
+
+        </activity>
     </application>
 
 </manifest>

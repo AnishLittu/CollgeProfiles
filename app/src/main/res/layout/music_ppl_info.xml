@@ -4,7 +4,6 @@
     android:layout_height="match_parent">
 
 
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,103 +15,147 @@
 
 
 
-
-
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
 
-                android:textSize="20dp"
-                android:padding="10dp"
-                android:text="NAME :"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="serif"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="NAME :"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/name"
-                android:textSize="30dp"
-                android:textColor="#000"
-                android:padding="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:textStyle="bold"
 
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:padding="10dp"/>
+            </LinearLayout>
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:padding="10dp"
-                android:text="SKILLS :"/>
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="SKILLS :"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/skills"
-                android:textColor="#000"
-                android:textSize="30dp"
-                android:padding="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/skills"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingTop="20dp">
 
-                android:textSize="20dp"
-                android:padding="10dp"
-                android:text="SEMESTER :"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:id="@+id/semester"
-                android:textColor="#000"
-                android:padding="30dp"/>
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="SEMESTER :"/>
 
-            <TextView
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/semester"
+                    android:textColor="#000"
+                    android:padding="10dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingTop="20dp">
 
-                android:textSize="20dp"
-                android:padding="10dp"
-                android:text="BRANCH :"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:id="@+id/branch"
-                android:textColor="#000"
-                android:padding="30dp"/>
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="BRANCH :"/>
 
-            <TextView
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/branch"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:padding="10dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingTop="20dp">
 
-                android:textSize="20dp"
-                android:padding="10dp"
-                android:text="CONTACT :"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:id="@+id/phone"
-                android:textColor="#000"
-                android:padding="30dp"/>
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="CONTACT :"/>
 
-            <TextView
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20dp"
+                    android:id="@+id/phone"
+                    android:textColor="#000"
+                    android:padding="10dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
 
-                android:textSize="20dp"
-                android:padding="10dp"
-                android:text="EMAIL :"/>
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="EMAIL :"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="30dp"
-                android:id="@+id/email"
-                android:textColor="#000"
-                android:padding="30dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/email"
+                    android:textSize="20dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+            </LinearLayout>
 
 
         </LinearLayout>

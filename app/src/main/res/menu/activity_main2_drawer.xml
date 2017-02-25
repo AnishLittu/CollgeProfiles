@@ -7,6 +7,11 @@
             android:icon="@drawable/nav_wall"
             android:title="My Wall"
            />
+        <item
+            android:id="@+id/event_request_form"
+            android:icon="@drawable/events"
+            android:title="Host Events"
+            />
 
         <item
             android:id="@+id/nav_interests"

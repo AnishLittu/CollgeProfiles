@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_request_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.first.in.collegeprofiles.EventRequestForm">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="Event Description:"
+        android:textSize="25dp"
+        android:id="@+id/desc"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/desc"
+        android:layout_centerInParent="true"
+        android:id="@+id/desctext"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event URL:"
+        android:layout_below="@+id/desctext"
+        android:id="@+id/url"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/url"
+        android:layout_centerInParent="true"
+        android:id="@+id/urltxt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Co-ordinator email-id:"
+        android:layout_below="@+id/urltxt"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:id="@+id/hostid"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hostid"
+                android:layout_centerInParent="true"
+                android:id="@+id/hostidtxt"
+                />
+
+
+            <Button
+                android:layout_width="175dp"
+
+                android:layout_height="50dp"
+                android:id="@+id/butsend"
+                android:text="Send"
+
+                android:textStyle="bold"
+                android:layout_below="@+id/hostidtxt"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape"
+
+                android:textColor="#FFF"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -99,7 +99,15 @@ public class MainActivity2 extends AppCompatActivity
                 startActivity(nxtintent);
 
 
-            } else if (id == R.id.nav_logout) {
+            }
+            else if(id==R.id.event_request_form)
+            {
+                Intent nxtintent = new Intent(MainActivity2.this,EventRequestForm.class);
+                startActivity(nxtintent);
+            }
+
+
+            else if (id == R.id.nav_logout) {
 
                 Intent nxtintent = new Intent(MainActivity2.this,MainActivity.class);
                 startActivity(nxtintent);

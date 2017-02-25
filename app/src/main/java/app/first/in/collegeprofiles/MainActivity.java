@@ -83,17 +83,17 @@ public class MainActivity extends AppCompatActivity {
 
                                 //shared pref
 
-                                PreferenceManager.getDefaultSharedPreferences(MainActivity.this)
-                                        .edit()
-                                        .putBoolean("loggedin",true)
-                                        .apply();
-
-                                //retr
-
-                                boolean b = PreferenceManager.getDefaultSharedPreferences(MainActivity.this)
-                                        .getBoolean("loggedin",false);
-
-
+//                                PreferenceManager.getDefaultSharedPreferences(MainActivity.this)
+//                                        .edit()
+//                                        .putBoolean("loggedin",true)
+//                                        .apply();
+//
+//                                //retr
+//
+//                                boolean b = PreferenceManager.getDefaultSharedPreferences(MainActivity.this)
+//                                        .getBoolean("loggedin",false);
+//
+//
 
 
                                 PD.dismiss();
